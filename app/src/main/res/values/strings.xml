@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Vendo</string>
+    <string name="title">Hello everyone , welcome to vendor app!</string>
+    <string name="enter_text_in_english">Enter text in english</string>
 </resources>
