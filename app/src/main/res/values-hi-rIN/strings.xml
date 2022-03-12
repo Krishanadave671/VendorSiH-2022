@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">वेन्डो</string>
+    <string name="title">नमस्ते सभी को, वेंडो ऐप में आपका स्वागत है</string>
+    <string name="login_as_customer">ग्राहक के रूप में लॉगिन करें</string>
+    <string name="login_as_vendor">विक्रेता के रूप में लॉगिन करें</string>
+    <string name="login_as_admin">व्यवस्थापक के रूप में लॉगिन करें</string>
+    <string name="remember_me">मुझे याद रखें</string>
+    <string name="forget_password">पासवर्ड भूल गए?</string>
+    <string name="enter_password">पासवर्ड दर्ज करें</string>
+    <string name="enter_email">ईमेल दर्ज करें</string>
+    <string name="login">लॉगिन</string>
+</resources>
