@@ -12,6 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Vendo">
         <activity
+            android:name=".vendor.MainActivityVendor"
+            android:exported="false" />
+        <activity
+            android:name=".customer.MainActivityCustomer"
+            android:exported="false" />
+        <activity
+            android:name=".admin.MainActivityAdmin"
+            android:exported="false" />
+        <activity
             android:name=".LogInActivity"
             android:exported="false" />
         <activity

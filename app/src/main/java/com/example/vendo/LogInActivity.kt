@@ -10,8 +10,12 @@ import android.preference.PreferenceManager
 import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
+import com.example.vendo.admin.MainActivityAdmin
+import com.example.vendo.customer.MainActivityCustomer
+import com.example.vendo.vendor.MainActivityVendor
 import com.google.android.material.textfield.TextInputLayout
 import java.util.*
+import kotlin.system.exitProcess
 
 class LogInActivity : AppCompatActivity() {
 
@@ -19,8 +23,9 @@ class LogInActivity : AppCompatActivity() {
 
     private lateinit var emailEditText : TextInputLayout
     private lateinit var passwordEditText: TextInputLayout
-    private lateinit var loginButton : Button
-    private lateinit var signuptextview : Button
+    private lateinit var customerLogIn: Button
+    private lateinit var vendorLogIn: Button
+    private lateinit var adminLogIn: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -31,9 +36,19 @@ class LogInActivity : AppCompatActivity() {
 
         emailEditText = findViewById(R.id.Email_login)
         passwordEditText = findViewById(R.id.Password_login)
+        customerLogIn = findViewById(R.id.Button_customer)
+        vendorLogIn = findViewById(R.id.Button_vendor)
+        adminLogIn = findViewById(R.id.Button_admin)
 
-
-
+        customerLogIn.setOnClickListener {
+            startActivity(Intent(this,MainActivityCustomer::class.java))
+        }
+        vendorLogIn.setOnClickListener {
+            startActivity(Intent(this,MainActivityVendor::class.java))
+        }
+        adminLogIn.setOnClickListener {
+            startActivity(Intent(this, MainActivityAdmin::class.java))
+        }
 
     }
     fun loginuser() {
@@ -52,8 +67,8 @@ class LogInActivity : AppCompatActivity() {
     }
 
     override fun onBackPressed() {
-        val intent = Intent(this, MainActivity::class.java)
-        startActivity(intent)
+        this.finish()
+        exitProcess(0)
 
     }
 
