@@ -6,4 +6,28 @@
     android:layout_height="match_parent"
     tools:context=".vendor.MainActivityVendor">
 
+
+    <np.com.susanthapa.curved_bottom_navigation.CurvedBottomNavigationView
+        android:id="@+id/bottom_nav_vendor"
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        app:cbn_bg="@color/primarylight"
+        app:cbn_elevation="10dp"
+        app:cbn_fabBg="@color/primary"
+        app:cbn_selectedColor="@color/white"
+        app:cbn_unSelectedColor="@color/secondary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="128dp"
+        android:text="@string/title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

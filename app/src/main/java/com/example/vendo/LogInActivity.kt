@@ -1,15 +1,13 @@
 package com.example.vendo
 
-import android.content.Context
+
 import android.content.Intent
-import android.content.SharedPreferences
 import android.content.res.Configuration
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.preference.PreferenceManager
+import android.util.Log
 import android.widget.Button
-import android.widget.TextView
-import android.widget.Toast
+import androidx.lifecycle.ViewModelProvider
 import com.example.vendo.admin.MainActivityAdmin
 import com.example.vendo.customer.MainActivityCustomer
 import com.example.vendo.vendor.MainActivityVendor
@@ -27,8 +25,10 @@ class LogInActivity : AppCompatActivity() {
     private lateinit var vendorLogIn: Button
     private lateinit var adminLogIn: Button
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
         languageCode = getSharedPreferences(getString(R.string.app_name),MODE_PRIVATE)
             .getString("languageCode","en")
         loadLanguage()
@@ -44,6 +44,7 @@ class LogInActivity : AppCompatActivity() {
             startActivity(Intent(this,MainActivityCustomer::class.java))
         }
         vendorLogIn.setOnClickListener {
+            Log.e("LC",languageCode.toString())
             startActivity(Intent(this,MainActivityVendor::class.java))
         }
         adminLogIn.setOnClickListener {
@@ -51,6 +52,8 @@ class LogInActivity : AppCompatActivity() {
         }
 
     }
+
+
     fun loginuser() {
         val email = emailEditText.editText?.text.toString()
         val password = passwordEditText.editText?.text.toString()
