@@ -4,7 +4,13 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Ananya Garg/Desktop/VendorSiH-2022/app/src/main/res/layout/activity_main.xml" value="0.1935185185185185" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/VendorSiH-2022/app/src/main/res/font/archivo_narrow.xml" value="0.234375" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/VendorSiH-2022/app/src/main/res/font/baloo.xml" value="0.234375" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/VendorSiH-2022/app/src/main/res/layout/activity_hindi.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/VendorSiH-2022/app/src/main/res/layout/activity_language.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/VendorSiH-2022/app/src/main/res/layout/activity_log_in.xml" value="0.25" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/VendorSiH-2022/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/VendorSiH-2022/app/src/main/res/layout/activity_maps.xml" value="0.1" />
       </map>
     </option>
   </component>
