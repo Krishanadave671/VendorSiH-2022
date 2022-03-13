@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_navigation_vendro"
+    app:startDestination="@id/homeFragmentVendor">
+
+    <fragment
+        android:id="@+id/homeFragmentVendor"
+        android:name="com.example.vendo.vendor.fragments.HomeFragmentVendor"
+        android:label="fragment_home_vendor"
+        tools:layout="@layout/fragment_home_vendor" >
+        <action
+            android:id="@+id/action_homeFragmentVendor_to_organizationFragmentVendor"
+            app:destination="@id/organizationFragmentVendor" />
+        <action
+            android:id="@+id/action_homeFragmentVendor_to_profileFragmentVendor"
+            app:destination="@id/profileFragmentVendor" />
+    </fragment>
+    <fragment
+        android:id="@+id/organizationFragmentVendor"
+        android:name="com.example.vendo.vendor.fragments.OrganizationFragmentVendor"
+        android:label="fragment_organization_vendor"
+        tools:layout="@layout/fragment_organization_vendor" >
+        <action
+            android:id="@+id/action_organizationFragmentVendor_to_profileFragmentVendor"
+            app:destination="@id/profileFragmentVendor" />
+        <action
+            android:id="@+id/action_organizationFragmentVendor_to_homeFragmentVendor"
+            app:destination="@id/homeFragmentVendor" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragmentVendor"
+        android:name="com.example.vendo.vendor.fragments.ProfileFragmentVendor"
+        android:label="fragment_profile_vendor"
+        tools:layout="@layout/fragment_profile_vendor" >
+        <action
+            android:id="@+id/action_profileFragmentVendor_to_homeFragmentVendor"
+            app:destination="@id/homeFragmentVendor" />
+        <action
+            android:id="@+id/action_profileFragmentVendor_to_organizationFragmentVendor"
+            app:destination="@id/organizationFragmentVendor" />
+    </fragment>
+</navigation>

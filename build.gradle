@@ -1,6 +1,11 @@
 buildscript {
+<<<<<<< HEAD
     ext {
         compose_version = '1.1.1'
+=======
+    dependencies {
+        classpath 'com.google.gms:google-services:4.3.10'
+>>>>>>> 0ad94fb13e878c90b0df1f915f635a7ddfc7e31e
     }
 }// Top-level build file where you can add configuration options common to all sub-projects/modules.
 plugins {

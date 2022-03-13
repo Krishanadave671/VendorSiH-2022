@@ -1,6 +1,20 @@
 <resources>
     <string name="app_name">Vendo</string>
+<<<<<<< HEAD
     <string name="title_activity_compose">ComposeActivity</string>
+=======
+    <string name="title">Hello everyone , welcome to vendor app!</string>
+    <string name="enter_text_in_english" translatable="false">enter text in english</string>
+    <string name="language_used" translatable="false">Language used</string>
+    <string name="login_as_customer">Login as Customer</string>
+    <string name="login_as_vendor">Login as Vendor</string>
+    <string name="login_as_admin">Login as Admin</string>
+    <string name="remember_me">Remember me</string>
+    <string name="forget_password">Forget password</string>
+    <string name="enter_password">Enter password</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="login">login</string>
+>>>>>>> 0ad94fb13e878c90b0df1f915f635a7ddfc7e31e
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
