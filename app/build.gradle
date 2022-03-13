@@ -61,4 +61,7 @@ dependencies {
 
     //pulsate lib
     implementation 'pl.bclogic:pulsator4droid:1.0.3'
+
+    implementation 'androidx.navigation:navigation-fragment-ktx:2.4.1'
+    implementation 'androidx.navigation:navigation-ui-ktx:2.4.1'
 }

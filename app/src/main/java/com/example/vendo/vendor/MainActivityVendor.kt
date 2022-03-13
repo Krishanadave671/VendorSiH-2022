@@ -23,20 +23,21 @@ class MainActivityVendor : AppCompatActivity() {
         bottomNavigation = findViewById(R.id.bottom_nav_vendor)
         val menuItems = arrayOf(
             CbnMenuItem(
-                R.drawable.ic_home,
-                R.drawable.avd_home
+                R.drawable.ic_organization,
+                R.drawable.avd_organization
             ),
             CbnMenuItem(
                 R.drawable.ic_home,
                 R.drawable.avd_home
+            ),
+            CbnMenuItem(
+                R.drawable.ic_profile,
+                R.drawable.avd_profile
             )
         )
 
-        bottomNavigation.setMenuItems(menuItems,0)
+        bottomNavigation.setMenuItems(menuItems,1)
         bottomNavigation.setOnMenuItemClickListener { cbnMenuItem, i ->
-
-        }
-        bottomNavigation.setOnClickListener {
 
         }
     }
