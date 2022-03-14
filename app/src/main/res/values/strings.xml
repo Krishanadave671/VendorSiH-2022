@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">Vendo</string>
+    <string name="title_activity_compose" translatable="false">ComposeActivity</string>
     <string name="title">Hello everyone , welcome to vendor app!</string>
     <string name="enter_text_in_english" translatable="false">enter text in english</string>
     <string name="language_used" translatable="false">Language used</string>

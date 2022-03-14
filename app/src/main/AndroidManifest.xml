@@ -12,9 +12,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Vendo">
+
         <activity
-            android:name=".vendor.MainActivityVendor"
-            android:exported="false" />
+            android:name=".ComposeActivity"
+            android:exported="true"
+            android:label="@string/title_activity_compose"
+            android:theme="@style/Theme.Vendo" />
+
         <activity
             android:name=".customer.MainActivityCustomer"
             android:exported="false" />
@@ -32,7 +36,14 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true"/>
+
+        <activity
+                android:name=".TablayoutActivity"
+                android:exported="true" />
+        <activity
+            android:name=".vendor.MainActivityVendor"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
