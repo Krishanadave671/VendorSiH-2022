@@ -12,7 +12,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Vendo">
-
+        <activity
+            android:name=".vendor.CloudKitchenRecyclerView"
+            android:exported="false" />
         <activity
             android:name=".ComposeActivity"
             android:exported="true"
@@ -35,14 +37,14 @@
 
 
         <activity
+            android:name=".vendor.MainActivityVendor"
+            android:exported="true"/>
+        <activity
                 android:name=".TablayoutActivity"
                 android:exported="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true" />
-            <activity
-                android:name=".vendor.MainActivityVendor"
-                android:exported="true"/>
                 <activity
                     android:name=".LogInActivity"
                     android:exported="true" >
