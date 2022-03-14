@@ -38,6 +38,7 @@ class LanguageActivity : AppCompatActivity() {
 
         hindiBtn.setOnClickListener {
             prefsEditor.putString("languageCode","hi")
+            prefsEditor.putString("lc","hi")
             prefsEditor.apply()
             start()
         }

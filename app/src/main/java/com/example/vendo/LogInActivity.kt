@@ -3,11 +3,10 @@ package com.example.vendo
 
 import android.content.Intent
 import android.content.res.Configuration
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.widget.Button
-import androidx.lifecycle.ViewModelProvider
+import androidx.appcompat.app.AppCompatActivity
 import com.example.vendo.admin.MainActivityAdmin
 import com.example.vendo.customer.MainActivityCustomer
 import com.example.vendo.vendor.MainActivityVendor
@@ -29,8 +28,9 @@ class LogInActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        languageCode = getSharedPreferences(getString(R.string.app_name),MODE_PRIVATE)
-            .getString("languageCode","en")
+        languageCode = this.getSharedPreferences(getString(R.string.app_name),MODE_PRIVATE)
+            .getString("languageCode","")
+        (this.application as GlobalVariables).languageCode = languageCode
         loadLanguage()
         setContentView(R.layout.activity_log_in)
 
