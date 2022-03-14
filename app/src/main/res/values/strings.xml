@@ -14,4 +14,7 @@
     <string name="login">login</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="update_location">Update Location</string>
+    <string name="location">Location</string>
+    <string name="license_no">License No</string>
 </resources>

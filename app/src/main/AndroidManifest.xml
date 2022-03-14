@@ -35,14 +35,14 @@
             android:name=".Piush.HindiActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".vendor.MainActivityVendor"
             android:exported="true"/>
 
         <activity
                 android:name=".TablayoutActivity"
                 android:exported="true" />
         <activity
-            android:name=".vendor.MainActivityVendor"
+            android:name=".MainActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
