@@ -25,25 +25,27 @@
         <activity
             android:name=".admin.MainActivityAdmin"
             android:exported="false" />
-        <activity
-            android:name=".LogInActivity"
-            android:exported="false" />
+
         <activity
             android:name=".LanguageActivity"
             android:exported="false" />
         <activity
             android:name=".Piush.HindiActivity"
             android:exported="false" />
-        <activity
-            android:name=".vendor.MainActivityVendor"
-            android:exported="true"/>
+
 
         <activity
                 android:name=".TablayoutActivity"
                 android:exported="true" />
         <activity
             android:name=".MainActivity"
-            android:exported="true" >
+            android:exported="true" />
+            <activity
+                android:name=".vendor.MainActivityVendor"
+                android:exported="true"/>
+                <activity
+                    android:name=".LogInActivity"
+                    android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
