@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+<<<<<<< HEAD
         <entry key="..\:/Users/krish/AndroidStudioProjects/Vendo/app/src/main/res/drawable/avd_home.xml" value="0.1035" />
         <entry key="..\:/Users/krish/AndroidStudioProjects/Vendo/app/src/main/res/drawable/avd_profile.xml" value="0.1035" />
         <entry key="..\:/Users/krish/AndroidStudioProjects/Vendo/app/src/main/res/drawable/home_circle.xml" value="0.1035" />
@@ -16,6 +17,27 @@
         <entry key="..\:/Users/krish/AndroidStudioProjects/Vendo/app/src/main/res/layout/fragment_second.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/krish/AndroidStudioProjects/Vendo/app/src/main/res/layout/fragment_third.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/krish/AndroidStudioProjects/Vendo/app/src/main/res/layout/order_item.xml" value="0.25" />
+=======
+        <entry key="..\:/Users/Ananya Garg/Desktop/VendorSiH-2022/app/src/main/res/layout/activity_main.xml" value="0.1935185185185185" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/VendorSiH-2022/app/src/main/res/drawable/avd_home.xml" value="0.1795" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/VendorSiH-2022/app/src/main/res/drawable/avd_organization.xml" value="0.1795" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/VendorSiH-2022/app/src/main/res/drawable/avd_profile.xml" value="0.1795" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/VendorSiH-2022/app/src/main/res/drawable/ic_home.xml" value="0.1795" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/VendorSiH-2022/app/src/main/res/drawable/ic_organization.xml" value="0.1795" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/VendorSiH-2022/app/src/main/res/drawable/ic_profile.xml" value="0.1795" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/VendorSiH-2022/app/src/main/res/font/archivo_narrow.xml" value="0.234375" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/VendorSiH-2022/app/src/main/res/font/baloo.xml" value="0.234375" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/VendorSiH-2022/app/src/main/res/layout/activity_hindi.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/VendorSiH-2022/app/src/main/res/layout/activity_language.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/VendorSiH-2022/app/src/main/res/layout/activity_log_in.xml" value="0.25" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/VendorSiH-2022/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/VendorSiH-2022/app/src/main/res/layout/activity_main_customer.xml" value="0.1" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/VendorSiH-2022/app/src/main/res/layout/activity_main_vendor.xml" value="0.2" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/VendorSiH-2022/app/src/main/res/layout/activity_maps.xml" value="0.1" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/VendorSiH-2022/app/src/main/res/layout/fragment_home_vendor.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/VendorSiH-2022/app/src/main/res/layout/fragment_organization_vendor.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/VendorSiH-2022/app/src/main/res/layout/fragment_profile_vendor.xml" value="0.21686746987951808" />
+>>>>>>> 1437a31524a81c211a8e9077fc9b41cc5c07ba81
       </map>
     </option>
   </component>

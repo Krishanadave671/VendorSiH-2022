@@ -10,4 +10,7 @@
     <string name="enter_password">पासवर्ड दर्ज करें</string>
     <string name="enter_email">ईमेल दर्ज करें</string>
     <string name="login">लॉगिन</string>
+    <string name="update_location">स्थान बदलें?</string>
+    <string name="location">स्थान</string>
+    <string name="license_no">लाइसेंस नं.</string>
 </resources>
