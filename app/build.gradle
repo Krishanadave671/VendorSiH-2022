@@ -69,7 +69,7 @@ dependencies {
 
 
     // Firebase and Google ML kit for translation
-    implementation 'com.google.firebase:firebase-bom:29.2.0'
+    
     implementation 'com.google.firebase:firebase-analytics-ktx:20.1.0'
     implementation 'com.google.firebase:firebase-ml-natural-language:22.0.1'
     implementation 'com.google.firebase:firebase-ml-natural-language-translate-model:20.0.9'
@@ -91,6 +91,7 @@ dependencies {
     implementation 'androidx.navigation:navigation-fragment-ktx:2.4.1'
     implementation 'androidx.navigation:navigation-ui-ktx:2.4.1'
 
+
 //    firestore
     implementation platform('com.google.firebase:firebase-bom:29.0.0')
     implementation 'com.google.firebase:firebase-firestore'
@@ -98,4 +99,8 @@ dependencies {
 
 //    recycler view
     implementation "androidx.recyclerview:recyclerview:1.1.0"
+
+    // Circular imageView
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+
 }
