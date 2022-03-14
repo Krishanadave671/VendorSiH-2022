@@ -13,9 +13,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Vendo">
         <activity
-            android:name=".vendor.CloudKitchenRecyclerView"
-            android:exported="false" />
-        <activity
             android:name=".ComposeActivity"
             android:exported="true"
             android:label="@string/title_activity_compose"
@@ -41,9 +38,6 @@
         <activity
             android:name=".TablayoutActivity"
             android:exported="true" />
-        <activity
-            android:name=".vendor.CloudKitchenAddding"
-            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
