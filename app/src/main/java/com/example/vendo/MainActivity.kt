@@ -10,9 +10,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val button: Button = findViewById(R.id.button_main)
-        button.setOnClickListener {
-            startActivity(Intent(this,LanguageActivity::class.java))
-        }
+
     }
 }
