@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/roundness">
+
+
+        <TextView
+            android:id="@+id/locTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="loc"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/white">
+
+            <TextView
+                android:id="@+id/buildingTextView"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:text="Somnath"
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                android:layout_gravity="center"
+                android:gravity="center"/>
+
+
+            <TextView
+                android:id="@+id/streetTextView"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="25sp"
+                android:text="kanderpada"
+                android:textColor="@color/black"
+                android:layout_gravity="center"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:foregroundGravity="center">
+
+            <TextView
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="90dp"
+                android:textSize="15sp"
+                android:text="No of Kitchens Available  : "/>
+
+            <TextView
+                android:textColor="@color/black"
+                android:id="@+id/noOfKitchensTextView"
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:textSize="15sp"
+                android:text="3" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
