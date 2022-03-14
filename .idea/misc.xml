@@ -7,6 +7,7 @@
         <entry key="..\:/Users/hp/AndroidStudioProjects/VendorSiH-2022/app/src/main/res/drawable/avd_home.xml" value="0.1795" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/VendorSiH-2022/app/src/main/res/drawable/avd_organization.xml" value="0.1795" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/VendorSiH-2022/app/src/main/res/drawable/avd_profile.xml" value="0.1795" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/VendorSiH-2022/app/src/main/res/drawable/ic_edit.xml" value="0.1795" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/VendorSiH-2022/app/src/main/res/drawable/ic_home.xml" value="0.1795" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/VendorSiH-2022/app/src/main/res/drawable/ic_organization.xml" value="0.1795" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/VendorSiH-2022/app/src/main/res/drawable/ic_profile.xml" value="0.1795" />
@@ -21,7 +22,7 @@
         <entry key="..\:/Users/hp/AndroidStudioProjects/VendorSiH-2022/app/src/main/res/layout/activity_maps.xml" value="0.1" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/VendorSiH-2022/app/src/main/res/layout/fragment_home_vendor.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/VendorSiH-2022/app/src/main/res/layout/fragment_organization_vendor.xml" value="0.19010416666666666" />
-        <entry key="..\:/Users/hp/AndroidStudioProjects/VendorSiH-2022/app/src/main/res/layout/fragment_profile_vendor.xml" value="0.21686746987951808" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/VendorSiH-2022/app/src/main/res/layout/fragment_profile_vendor.xml" value="0.36807511737089205" />
       </map>
     </option>
   </component>
