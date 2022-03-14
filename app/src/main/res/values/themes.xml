@@ -2,7 +2,7 @@
     <!-- Base application theme. -->
 
 
-    <style name="Theme.Vendo" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <style name="Theme.Vendo" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <item name="colorPrimary">@color/primary</item>
         <item name="colorPrimaryVariant">@color/primarydark</item>
         <item name="colorOnPrimary">@color/white</item>

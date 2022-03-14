@@ -7,6 +7,7 @@ import android.util.Log
 import androidx.fragment.app.Fragment
 import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
+import com.example.vendo.GlobalVariables
 import com.example.vendo.R
 import com.example.vendo.vendor.fragments.HomeFragmentVendor
 import com.example.vendo.vendor.fragments.OrganizationFragmentVendor
@@ -16,7 +17,7 @@ import java.util.*
 
 class MainActivityVendor : AppCompatActivity() {
 
-    private var languageCode : String? = "en"
+    private var languageCode : String? = ""
     private lateinit var navHostFragment: NavHostFragment
     private lateinit var bottomNavigation: np.com.susanthapa.curved_bottom_navigation.CurvedBottomNavigationView
     private lateinit var navController: NavController
@@ -24,8 +25,7 @@ class MainActivityVendor : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        languageCode = getSharedPreferences(getString(R.string.app_name),MODE_PRIVATE)
-            .getString("languageCode","en")
+        languageCode = (this.application as GlobalVariables).languageCode
         loadLanguage()
         setContentView(R.layout.activity_main_vendor)
 
