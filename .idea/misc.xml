@@ -7,6 +7,7 @@
         <entry key="..\:/Users/hp/AndroidStudioProjects/VendorSiH-2022/app/src/main/res/drawable/avd_home.xml" value="0.1795" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/VendorSiH-2022/app/src/main/res/drawable/avd_organization.xml" value="0.1795" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/VendorSiH-2022/app/src/main/res/drawable/avd_profile.xml" value="0.1795" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/VendorSiH-2022/app/src/main/res/drawable/ic_edit.xml" value="0.1795" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/VendorSiH-2022/app/src/main/res/drawable/ic_home.xml" value="0.1795" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/VendorSiH-2022/app/src/main/res/drawable/ic_organization.xml" value="0.1795" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/VendorSiH-2022/app/src/main/res/drawable/ic_profile.xml" value="0.1795" />
@@ -18,9 +19,15 @@
         <entry key="..\:/Users/hp/AndroidStudioProjects/VendorSiH-2022/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/VendorSiH-2022/app/src/main/res/layout/activity_main_customer.xml" value="0.1" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/VendorSiH-2022/app/src/main/res/layout/activity_main_vendor.xml" value="0.2" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/VendorSiH-2022/app/src/main/res/layout/activity_map.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/VendorSiH-2022/app/src/main/res/layout/activity_maps.xml" value="0.1" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/VendorSiH-2022/app/src/main/res/layout/fragment_home_vendor.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/VendorSiH-2022/app/src/main/res/layout/fragment_organization_vendor.xml" value="0.19010416666666666" />
+
+
+        <entry key="..\:/Users/hp/AndroidStudioProjects/VendorSiH-2022/app/src/main/res/layout/fragment_profile_vendor.xml" value="0.36807511737089205" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/VendorSiH-2022/app/src/main/res/layout/fragment_profile_vendor.xml" value="0.20416666666666666" />
+
         <entry key="..\:/Users/hp/AndroidStudioProjects/VendorSiH-2022/app/src/main/res/layout/fragment_profile_vendor.xml" value="0.21686746987951808" />
         <entry key="..\:/Users/krish/AndroidStudioProjects/Vendo/app/src/main/res/drawable/avd_home.xml" value="0.1035" />
         <entry key="..\:/Users/krish/AndroidStudioProjects/Vendo/app/src/main/res/drawable/avd_profile.xml" value="0.1035" />
@@ -31,6 +38,7 @@
         <entry key="..\:/Users/krish/AndroidStudioProjects/Vendo/app/src/main/res/drawable/roundness.xml" value="0.1045" />
         <entry key="..\:/Users/krish/AndroidStudioProjects/Vendo/app/src/main/res/layout/activity_cloud_kitchen_adding.xml" value="0.5" />
         <entry key="..\:/Users/krish/AndroidStudioProjects/Vendo/app/src/main/res/layout/activity_hindi.xml" value="0.16666666666666666" />
+
         <entry key="..\:/Users/krish/AndroidStudioProjects/Vendo/app/src/main/res/layout/activity_main.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/krish/AndroidStudioProjects/Vendo/app/src/main/res/layout/activity_main_vendor.xml" value="0.2814814814814815" />
         <entry key="..\:/Users/krish/AndroidStudioProjects/Vendo/app/src/main/res/layout/activity_tablayout.xml" value="0.16666666666666666" />
@@ -51,8 +59,12 @@
         <entry key="app/src/main/res/layout/activity_main_customer.xml" value="0.22056159420289856" />
         <entry key="app/src/main/res/layout/cloud_kitchen_list.xml" value="0.22056159420289856" />
         <entry key="app/src/main/res/layout/fragment_home_vendor.xml" value="0.22056159420289856" />
+
+
+        <entry key="..\:/Users/hp/AndroidStudioProjects/VendorSiH-2022/app/src/main/res/layout/fragment_profile_vendor.xml" value="0.21686746987951808" />
         <entry key="app/src/main/res/layout/fragment_organization_vendor.xml" value="0.22056159420289856" />
         <entry key="app/src/main/res/layout/vendor_list.xml" value="0.375" />
+
       </map>
     </option>
   </component>

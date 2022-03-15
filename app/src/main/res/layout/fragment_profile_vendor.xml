@@ -14,8 +14,8 @@
 
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/vendor_photo"
-            android:layout_width="64dp"
-            android:layout_height="64dp"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
             android:layout_marginTop="36dp"
             android:layout_marginStart="16dp"
             app:layout_constraintStart_toStartOf="parent"
@@ -28,10 +28,12 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="36dp"
             android:layout_marginEnd="16dp"
-            android:text="Kirti college ka vada pav"
+            android:text="Kirti college ka vadapaav"
             android:textSize="20sp"
             android:textStyle="bold"
             android:fontFamily="@font/muli_extrabold"
+            app:layout_constraintStart_toEndOf="@id/vendor_photo"
+            android:layout_marginStart="16dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -46,7 +48,7 @@
             android:layout_marginTop="16dp"
             android:textSize="16sp"
             android:fontFamily="monospace"
-            android:text="One of the famous vadapav in whole mumbai and visited by many bollywood superstar"
+            android:text="One of the famous vadapaav in whole mumbai and visited by many bollywood superstar"
 
 
 
@@ -93,13 +95,13 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/vendor_license_info" />
 
-        <ImageView
+        <fragment
             android:id="@+id/vendor_location_info"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="256dp"
             android:layout_marginHorizontal="16dp"
             app:layout_constraintEnd_toEndOf="parent"
-            android:src="@drawable/location"
             android:layout_marginTop="16dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/vendor_location_header" />
@@ -117,6 +119,15 @@
             android:text="@string/update_location"
 
             />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginEnd="-12dp"
+            android:src="@drawable/ic_edit"
+            app:layout_constraintBottom_toBottomOf="@+id/vendor_photo"
+            app:layout_constraintEnd_toEndOf="@+id/vendor_photo" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 

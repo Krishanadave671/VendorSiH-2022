@@ -2,6 +2,7 @@ plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
     id 'com.google.gms.google-services'
+    id 'com.google.android.libraries.mapsplatform.secrets-gradle-plugin'
 }
 
 android {
@@ -35,6 +36,7 @@ android {
     }
     buildFeatures {
         compose true
+        viewBinding true
     }
     composeOptions {
         kotlinCompilerExtensionVersion compose_version
@@ -67,9 +69,8 @@ dependencies {
     //viewpager2
     implementation("androidx.viewpager2:viewpager2:1.0.0")
 
-
     // Firebase and Google ML kit for translation
-    
+
     implementation 'com.google.firebase:firebase-analytics-ktx:20.1.0'
     implementation 'com.google.firebase:firebase-ml-natural-language:22.0.1'
     implementation 'com.google.firebase:firebase-ml-natural-language-translate-model:20.0.9'
@@ -93,17 +94,23 @@ dependencies {
 
 
 //    firestore
-    implementation platform('com.google.firebase:firebase-bom:29.0.0')
-    implementation 'com.google.firebase:firebase-firestore'
-    implementation 'com.google.firebase:firebase-firestore-ktx'
+    implementation 'com.google.firebase:firebase-bom:29.2.0'
+    implementation 'com.google.firebase:firebase-firestore:24.0.2'
+    implementation 'com.google.firebase:firebase-firestore-ktx:24.0.2'
 
 //    recycler view
-    implementation "androidx.recyclerview:recyclerview:1.1.0"
+    implementation "androidx.recyclerview:recyclerview:1.2.1"
 
     // Circular imageView
     implementation 'de.hdodenhof:circleimageview:3.1.0'
 
-//    firebase storage
+
+    // Map API
+    implementation 'com.google.android.gms:play-services-maps:18.0.2'
+    implementation "com.google.android.gms:play-services-location:19.0.1"
+
+    // firebase storage
     implementation 'com.google.firebase:firebase-storage'
 
 }
+

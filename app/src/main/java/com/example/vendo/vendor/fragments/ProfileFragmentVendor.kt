@@ -15,6 +15,12 @@ import android.widget.TextView
 import androidx.core.app.ActivityCompat
 import com.example.vendo.GlobalVariables
 import com.example.vendo.R
+import com.google.android.gms.maps.CameraUpdateFactory
+import com.google.android.gms.maps.GoogleMap
+import com.google.android.gms.maps.OnMapReadyCallback
+import com.google.android.gms.maps.SupportMapFragment
+import com.google.android.gms.maps.model.LatLng
+import com.google.android.gms.maps.model.MarkerOptions
 import com.google.firebase.ml.naturallanguage.FirebaseNaturalLanguage
 import com.google.firebase.ml.naturallanguage.translate.FirebaseTranslateLanguage
 import com.google.firebase.ml.naturallanguage.translate.FirebaseTranslator
@@ -22,13 +28,15 @@ import com.google.firebase.ml.naturallanguage.translate.FirebaseTranslatorOption
 import java.util.*
 
 
-class ProfileFragmentVendor : Fragment() {
+class ProfileFragmentVendor : Fragment() , OnMapReadyCallback {
 
     private var languageCode : String? = "en"
     private lateinit var translateEnglishToHindi: FirebaseTranslator
     private lateinit var vendorName: TextView
     private lateinit var vendorInfo: TextView
     private lateinit var vendorLicenseInfo: TextView
+    private lateinit var mMap: GoogleMap
+    private lateinit var mapFragment: SupportMapFragment
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -41,6 +49,8 @@ class ProfileFragmentVendor : Fragment() {
         vendorName = view.findViewById(R.id.vendor_name)
         vendorInfo = view.findViewById(R.id.vendor_info)
         vendorLicenseInfo = view.findViewById(R.id.vendor_license_info)
+        mapFragment =childFragmentManager.findFragmentById(R.id.vendor_location_info) as SupportMapFragment
+        mapFragment.getMapAsync(this)
 
         if(languageCode=="hi"){
             prepareTranslationalModel()
@@ -113,4 +123,21 @@ class ProfileFragmentVendor : Fragment() {
             }
     }
 
+    override fun onMapReady(googleMap: GoogleMap) {
+        mMap = googleMap
+
+        // Add a marker in Sydney and move the camera
+        val vadapav = LatLng(19.020345,72.832103)
+        mMap.addMarker(MarkerOptions().position(vadapav).title("Kirti college ka vadapav"))
+        mMap.animateCamera(
+            CameraUpdateFactory.newLatLngZoom(
+                LatLng(
+                    vadapav.latitude,
+                    vadapav.longitude
+                ), 16.0f
+            )
+        )
+    }
+
 }
+
