@@ -1,4 +1,4 @@
-package com.example.vendo.vendor
+package com.example.vendo.vendor.cloudKitchen
 
 import android.view.LayoutInflater
 import android.view.View

@@ -6,9 +6,11 @@
     tools:context=".vendor.fragments.OrganizationFragmentVendor">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/cloudRecyclerView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="organization fragment" />
+        android:layout_margin="15dp"/>
 
 </FrameLayout>
