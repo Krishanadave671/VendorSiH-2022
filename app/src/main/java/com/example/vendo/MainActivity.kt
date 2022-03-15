@@ -15,5 +15,6 @@ class MainActivity : AppCompatActivity() {
             (this.application as GlobalVariables).findLanguage()
             startActivity(Intent(this,LanguageActivity::class.java))
         }
+
     }
 }

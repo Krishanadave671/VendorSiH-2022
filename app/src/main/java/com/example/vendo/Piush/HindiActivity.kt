@@ -28,11 +28,8 @@ class HindiActivity : AppCompatActivity() {
     private lateinit var progressBar: ProgressBar
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
         loadLanguage("hi")
-
         this.setContentView(R.layout.activity_hindi)
-
         btn = findViewById(R.id.button)
         edt = findViewById(R.id.edittext)
         txt = findViewById(R.id.textView3)
